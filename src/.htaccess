@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^assets/css/([A-Za-z1-9_\-]*)\.css$ dev/csscompiler.php?filename=$1 [NC]
